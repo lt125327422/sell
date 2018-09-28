@@ -8,9 +8,6 @@ public class MathUtil {
 
     private static final Double MONEY_RANGE = 0.01;
 
-
-
-
     /**
      * 比较2个金额是否相等
      * @param d1
