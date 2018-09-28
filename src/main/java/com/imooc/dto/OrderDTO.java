@@ -19,7 +19,7 @@ import java.util.List;
  */
 @Data
 //@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
-//@JsonInclude(JsonInclude.Include.NON_NULL)
+//@JsonInclude(JsonInclude.Include.NON_NULL)    可以在配置文件中加,这句话就不用写了
 public class OrderDTO {
 
     /** 订单id. */

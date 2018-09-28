@@ -18,6 +18,23 @@ import java.util.Date;
 @Data
 public class ProductCategory {
 
+    /**
+     * @Data   get和set都包含
+     * @Getter
+     * @Setter
+     * 不用写get和set方法
+     * 要装插件和导入lombok成
+     *
+     * 在重新打包为class的时候生产
+     */
+
+
+    /**
+     * @DynamicUpdate
+     * 动态sql 自动更新时间,前提是这行记录有值发生了改变
+     */
+
+
     /** 类目id. */
     @Id
     @GeneratedValue
@@ -32,6 +49,9 @@ public class ProductCategory {
     private Date createTime;
 
     private Date updateTime;
+
+
+
 
     public ProductCategory() {
     }
